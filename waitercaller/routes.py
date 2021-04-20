@@ -1,5 +1,5 @@
 from waitercaller import app
 
-@ap.route("/")
+@app.route("/")
 def home():
     return "Under Construction"
