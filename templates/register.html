@@ -1,0 +1,10 @@
+{% extends 'layout/base.html' %}
+{% block content %}
+   <form action="" novalidate method='post'>
+        {{form.hidden_tag()}}
+        {{input(form.email)}}
+        {{input(form.password)}}
+        {{input(form.confirm_password)}}
+        {{form.submit(class='btn btn-primary')}}
+   </form>
+{% endblock content %}
